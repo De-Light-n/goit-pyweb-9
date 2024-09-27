@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "goit-pyweb-9"
+version = "0.1.0"
+description = ""
+authors = ["DeLight <nazarchukyayko@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.12.3"
+scrapy = "^2.11.2"
+itemadapter = "^0.9.0"
+mongoengine = "^0.29.1"
+redis-lru = "^0.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
